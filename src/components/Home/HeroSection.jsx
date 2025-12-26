@@ -42,7 +42,7 @@ export default function HeroSection() {
 
   return (
     <section
-      className="relative h-[120vh] min-h-[600px] overflow-hidden mt-5"
+      className="relative w-screen min-h-screen overflow-hidden"
       onMouseEnter={() => setAutoplay(true)}
       onMouseLeave={() => setAutoplay(true)}
     >
