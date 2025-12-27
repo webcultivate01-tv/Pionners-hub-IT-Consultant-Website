@@ -39,10 +39,17 @@ const CTASection = () => {
           >
             <Link
               to="/contact"
-              className="inline-flex px-10 py-4 rounded-xl text-lg font-semibold text-white
-              bg-gradient-to-r from-red-400 via-red-500 to-red-800
-              hover:shadow-2xl hover:-translate-y-1
-              transition-all duration-300"
+              className="
+    inline-flex items-center justify-center
+    px-4 py-2 text-sm
+    sm:px-6 sm:py-2.5 sm:text-base
+    md:px-10 md:py-4 md:text-lg
+    rounded-lg sm:rounded-xl
+    font-semibold text-white
+    bg-gradient-to-r from-red-400 via-red-500 to-red-800
+    hover:shadow-2xl hover:-translate-y-1
+    transition-all duration-300
+  "
             >
               Get a Free Consultation
             </Link>
